@@ -1,0 +1,46 @@
+{
+  "name": "sphinx-mvp",
+  "get": {
+    "verb": "GET",
+    "uris": ["/index"],
+    "client": {
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+      },
+      "parameters": {},
+      "message": {
+        "location": "body",
+        "name": ""
+      },
+      "transforms": []
+    },
+    "server": {
+      "headers": {
+        "Server": "Apache",
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "transforms": []
+    }
+  },
+  "post": {
+    "verb": "POST",
+    "uris": ["/data"],
+    "client": {
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+      },
+      "parameters": {},
+      "message": {
+        "location": "body",
+        "name": ""
+      },
+      "transforms": []
+    },
+    "server": {
+      "headers": {
+        "Server": "Apache"
+      },
+      "transforms": []
+    }
+  }
+}
