@@ -2,7 +2,7 @@
 
 Educational Windows x64 Mythic C2 agent written in C, ConPTY interactive shell, COFF module loader, AES-256-CBC, TLV, HTTP transport.
 
-> **Purpose:** learning project. Covers the full stack of a Mythic payload type: C agent, Python Mythic integration, and a binary translator. Not intended for production offensive use.
+> **Purpose:** learning project. Covers the full stack of a Mythic payload type: C agent, Python Mythic integration, and a binary translator. Not intended for production offensive use, may contain errors, instability, or inaccuracies.
 
 
 # Architecture
